@@ -1,0 +1,49 @@
+body {
+  display: flex;
+  background-color: gray;
+  justify-content: center;
+  align-items: center;
+  height: 97vh;
+}
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  padding: 5px 0px;
+}
+.flex-container > div {
+  width: 100px;
+  height: 100px;
+}
+.Box1 {
+  background-color: red;
+  margin: 5px 10px;
+  border: 10px solid darkred;
+}
+.Box2 {
+  background-color: yellow;
+  margin: 5px 10px;
+  border: 10px solid darkgoldenrod;
+}
+.Box3 {
+  background-color: green;
+  margin: 5px 10px;
+  border: 10px solid darkgreen;
+}
+.Box1innehåll {
+  height: 50%;
+  margin-top: 50%;
+  background-color: lightcoral;
+}
+.Box2innehåll {
+  height: 50%;
+  margin-left: 50%;
+  margin-top: 50%;
+  background-color: lightgoldenrodyellow;
+}
+.Box3innehåll {
+  height: 50%;
+  margin-right: 50%;
+  margin-top: 50%;
+  background-color: lightgreen;
+}
